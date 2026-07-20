@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+*.env
+!.env.example
+
+# Uploaded and generated images
+uploads/*
+!uploads/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Model training artifacts
+runs/
+weights/
+checkpoints/
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
